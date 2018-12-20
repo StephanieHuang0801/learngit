@@ -8,14 +8,19 @@
 # cd learngit
 # pwd (查看文件夹路径)
 # git init(将目录变成git可管理的仓库)
+# git vi "文件名"
+# 一进来是命令模式（按i切换到编辑模式）
+# 按Esc切换回命令模式
+# ：+x回车能保存并退出
 # git add readme.txt(要先有这个文件，添加要提交的文件)
 # git commit -m"my remark"(提交并备注)
 #（修改文件）
 # git status(掌握仓库当前状态)
 # git diff (查看修改内容)
-# git add(提交修改)
+# git diff HEAD -- readme.txt
+# git add(将要提交的修改放到暂存区，每一次修改都要add)
 # git status(先查看当前仓库状态) 显示要提交的文件有readme.txt
-# git commit -m" "
+# git commit -m" "（一次性将暂存区的所有修改提交到分支）
 # git status
 # git log(历史记录)
 # git log --pretty=oneline(简化版的日志)
