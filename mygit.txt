@@ -2,7 +2,7 @@
 # Git 分布式版本控制系统：没有中央服务器
 # SVN集中式版本控制系统：版本库是集中放在中央服务器
 #学习命令行------学习图形化软件
-# .git文件夹→版本库/暂存区（控制配置信息）
+# .git文件夹→版本库（控制配置信息）暂存区在版本库里
 # git用户名邮箱的配置与查询 git config --global user.email(1029476703@qq.com) /user.name (ying0801)
 # mkdir learngit(在某个盘下创建文件夹)
 # cd learngit
@@ -17,3 +17,10 @@
 # git status(先查看当前仓库状态) 显示要提交的文件有readme.txt
 # git commit -m" "
 # git status
+# git log(历史记录)
+# git log --pretty=oneline(简化版的日志)
+# git reset --hard HEAD^(退回到上一版本，退几步加几个^,n个HEAD~n)
+# cat mygit.txt(查看当前内容，验证已还原)
+# git status(发现最新版本的已经不见了)
+# git reset --hard 1094a(commit id的前几位，又能恢复回去)
+# git reflog(若重启以后再看commit id，先cd到那个目录)
