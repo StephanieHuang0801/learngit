@@ -1,6 +1,12 @@
-# Git和github完全不一样
+﻿# Git和github完全不一样
 # Git 分布式版本控制系统：没有中央服务器
 # SVN集中式版本控制系统：版本库是集中放在中央服务器
 #学习命令行------学习图形化软件
 # .git文件夹→版本库/暂存区（控制配置信息）
 # git用户名邮箱的配置与查询 git config --global user.email(1029476703@qq.com) /user.name (ying0801)
+# mkdir learngit(在某个盘下创建文件夹)
+# cd learngit
+# pwd (查看文件夹路径)
+# git init(将目录变成git可管理的仓库)
+# git add readme.txt(要先有这个文件，添加要提交的文件)
+# git commit -m"my remark"(提交并备注)
